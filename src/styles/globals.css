@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+/* Sharp edges — zero out all Mantine radius sizes so every component squares off */
+:root {
+  --mantine-radius-xs: 0px;
+  --mantine-radius-sm: 0px;
+  --mantine-radius-md: 0px;
+  --mantine-radius-lg: 0px;
+  --mantine-radius-xl: 0px;
+  --mantine-radius-default: 0px;
+}
+
+/* Sharp edges for Tailwind rounded utilities used across the app */
+[class*="rounded"] {
+  border-radius: 0 !important;
+}
