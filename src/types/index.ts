@@ -33,36 +33,35 @@ export interface BaseRecord {
 export interface Project extends BaseRecord {
   funding_year: string;
   project_name: string;
-  funding_agency_id: string;
-  funding_category_id: string;
-  project_cycle_status_id: string;
-  project_implementation_status_id: string;
-  project_initiator_category_id: string;
-  project_type_id: string;
-  substation_id: string;
-  vendor_id: string;
   reference_number: string;
   county?: string;
   constituency?: string;
-  // resolved display names (joined server-side)
+  // label columns stored directly on the layer
+  funding_agency?: string;
+  funding_category?: string;
+  project_type?: string;
+  project_cycle_status?: string;
+  project_implementation_status?: string;
+  project_initiator_category?: string;
+  substation_name?: string;
+  vendor_name?: string;
+  // resolved display names (populated by the API from the label columns)
   funding_agency_name?: string;
   funding_category_name?: string;
   project_type_name?: string;
   project_cycle_status_name?: string;
   project_implementation_status_name?: string;
   initiator_category_name?: string;
-  substation_name?: string;
-  vendor_name?: string;
 }
 
 export interface Facility extends BaseRecord {
-  constituency_code: number;
   facility_name: string;
   reference_number: string;
-  ward_code: number;
-  facility_type_id: string;
-  program_type_id: string;
-  // resolved display names
+  // label columns stored directly on the layer
+  facility_category?: string;
+  facility_type?: string;
+  program_type?: string;
+  // resolved display names (populated by the API from the label columns)
   facility_type_name?: string;
   program_type_name?: string;
 }
@@ -92,6 +91,7 @@ export interface ProjectCycleStatus extends BaseRecord {
 
 export interface ProjectImplementationStatus extends BaseRecord {
   project_implementation_status: string;
+  sort_order?: number;
 }
 
 export interface ProjectInitiatorCategory extends BaseRecord {

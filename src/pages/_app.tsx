@@ -27,6 +27,17 @@ const theme = createTheme({
         title: { fontSize: '1.125rem', fontWeight: 700, lineHeight: 1.3 },
       },
     }),
+    // All inputs default to the filled variant app-wide.
+    TextInput: { defaultProps: { variant: 'filled' } },
+    Textarea: { defaultProps: { variant: 'filled' } },
+    Select: { defaultProps: { variant: 'filled' } },
+    MultiSelect: { defaultProps: { variant: 'filled' } },
+    NativeSelect: { defaultProps: { variant: 'filled' } },
+    NumberInput: { defaultProps: { variant: 'filled' } },
+    PasswordInput: { defaultProps: { variant: 'filled' } },
+    Autocomplete: { defaultProps: { variant: 'filled' } },
+    TagsInput: { defaultProps: { variant: 'filled' } },
+    DateInput: { defaultProps: { variant: 'filled' } },
   },
 });
 

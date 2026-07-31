@@ -70,7 +70,8 @@ export async function queryFeatures<T>(
 	layerUrl: string,
 	token: string,
 	where = "1=1",
-	outFields = "*"
+	outFields = "*",
+	orderByFields?: string
 ): Promise<T[]> {
 	const params = new URLSearchParams({
 		where,
@@ -79,6 +80,7 @@ export async function queryFeatures<T>(
 		f: "json",
 		token
 	});
+	if (orderByFields) params.set("orderByFields", orderByFields);
 
 	const res = await fetch(`${layerUrl}/query?${params.toString()}`, {
 		headers: { Referer: REFERER }

@@ -1,0 +1,1842 @@
+{
+  "Hosted/Proposed_11KV_With_Project_Details": {
+    "itemIds": [
+      {
+        "id": "0e5ede1fb5594aa09ddab293272b8ecc",
+        "title": "Proposed 11KV With Project Details",
+        "type": "Feature Service",
+        "owner": "esriea_development"
+      }
+    ],
+    "service": {
+      "allowGeometryUpdates": false,
+      "supportsApplyEditsWithGlobalIds": false,
+      "isView": true,
+      "maxRecordCount": 2000,
+      "description": "",
+      "units": "esriMeters",
+      "isUpdatableView": false,
+      "maxViewsCount": 0,
+      "isDatabaseView": true,
+      "syncEnabled": false,
+      "tables": [],
+      "hasVersionedData": false,
+      "supportedAppendSourceFilterFormats": "featureService",
+      "layerOverridesEnabled": true,
+      "supportsRelationshipsResource": true,
+      "layers": [
+        {
+          "name": "Proposed_11KV_With_Project_Details",
+          "id": 0,
+          "type": "Feature Layer",
+          "geometryType": "esriGeometryPolyline",
+          "serviceItemId": "0e5ede1fb5594aa09ddab293272b8ecc"
+        }
+      ],
+      "GUIDFormat": "O",
+      "spatialReference": {
+        "latestWkid": 3857,
+        "wkid": 102100
+      },
+      "fullExtent": {
+        "ymin": -15538711.096309224,
+        "xmin": -17811118.526923772,
+        "ymax": 15538711.096309224,
+        "xmax": 17811118.526923772,
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        }
+      },
+      "enableZDefaults": false,
+      "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+      "capabilities": "Query",
+      "supportsAppend": true,
+      "supportsDisconnectedEditing": false,
+      "sourceSchemaChangesAllowed": false,
+      "supportsSyncModelNone": true,
+      "supportedAppendFormats": "featureCollection,featureService,shapefile",
+      "supportsReturnDeleteResults": true,
+      "currentVersion": 11.5,
+      "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": true,
+        "supportsApplyEditsbyUploadID": true,
+        "supportsReturnEditResults": true,
+        "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+      },
+      "supportedQueryFormats": "JSON",
+      "initialExtent": {
+        "ymin": -15538711.096309224,
+        "xmin": -17811118.526923772,
+        "ymax": 15538711.096309224,
+        "xmax": 17811118.526923772,
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        }
+      },
+      "serviceDescription": "",
+      "editorTrackingInfo": {
+        "allowAnonymousToQuery": true,
+        "allowOthersToUpdate": true,
+        "allowAnonymousToUpdate": true,
+        "enableEditorTracking": false,
+        "allowOthersToDelete": false,
+        "allowOthersToQuery": true,
+        "enableOwnershipAccessControl": false,
+        "allowAnonymousToDelete": true
+      },
+      "isMultiServicesView": true,
+      "copyrightText": "",
+      "supportsLayerOverrides": true,
+      "serviceItemId": "0e5ede1fb5594aa09ddab293272b8ecc"
+    },
+    "adminLayer": {
+      "extent": {
+        "ymin": -15538711.096309224,
+        "xmin": -17811118.526923772,
+        "ymax": 15538711.096309224,
+        "xmax": 17811118.526923772,
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        }
+      },
+      "supportsApplyEditsWithGlobalIds": false,
+      "maxRecordCount": 2000,
+      "attachmentProperties": [
+        {
+          "fieldName": "attachmentid",
+          "isEnabled": true,
+          "name": "id"
+        },
+        {
+          "fieldName": "globalid",
+          "isEnabled": true,
+          "name": "globalId"
+        },
+        {
+          "fieldName": "att_name",
+          "isEnabled": true,
+          "name": "name"
+        },
+        {
+          "fieldName": "data_size",
+          "isEnabled": true,
+          "name": "size"
+        },
+        {
+          "fieldName": "content_type",
+          "isEnabled": true,
+          "name": "contentType"
+        },
+        {
+          "fieldName": "keywords",
+          "isEnabled": true,
+          "name": "keywords"
+        },
+        {
+          "fieldName": "exifinfo",
+          "isEnabled": true,
+          "name": "exifInfo"
+        }
+      ],
+      "attachmentFields": [
+        {
+          "sqlType": "sqlTypeInteger",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "attachmentid",
+          "alias": "attachmentid",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 38,
+          "name": "globalid",
+          "alias": "globalid",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 250,
+          "name": "att_name",
+          "alias": "att_name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeInteger",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "data_size",
+          "alias": "data_size",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 150,
+          "name": "content_type",
+          "alias": "content_type",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 2048,
+          "name": "keywords",
+          "alias": "keywords",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 1073741822,
+          "name": "exifinfo",
+          "alias": "exifinfo",
+          "type": "esriFieldTypeString"
+        }
+      ],
+      "type": "Feature Layer",
+      "hasStaticData": false,
+      "supportsAttachmentsByUploadId": true,
+      "syncEnabled": false,
+      "editingInfo": {},
+      "supportsAttachmentsResizing": true,
+      "id": 0,
+      "spatialReference": {
+        "latestWkid": 3857,
+        "wkid": 102100
+      },
+      "supportsSubtypeEditing": true,
+      "supportsStatistics": true,
+      "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+      "standardMaxRecordCount": 2000,
+      "isDataVersioned": false,
+      "maxFieldNameLength": 63,
+      "hasGeometryProperties": true,
+      "templates": [],
+      "supportsAdvancedQueries": true,
+      "currentVersion": 11.5,
+      "hasZ": false,
+      "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": true,
+        "supportsApplyEditsbyUploadID": true,
+        "supportsReturnEditResults": true,
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ],
+        "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+      },
+      "objectIdField": "objectid",
+      "supportsQuantizationEditMode": true,
+      "hasContingentValuesDefinition": false,
+      "viewSourceHasAttachments": true,
+      "name": "Proposed_11KV_With_Project_Details",
+      "displayField": null,
+      "isMultiServicesView": true,
+      "supportsCalculate": true,
+      "fields": [
+        {
+          "visible": true,
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "length": 38,
+          "type": "esriFieldTypeGlobalID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "globalid",
+          "alias": "globalid"
+        },
+        {
+          "sqlType": "sqlTypeDouble",
+          "virtual": true,
+          "visible": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "SHAPE__Length",
+          "alias": "SHAPE__Length",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "quotesRequired": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project",
+          "alias": "project"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "funding_year",
+          "length": 256,
+          "alias": "Funding Year",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "project_name",
+          "length": 256,
+          "alias": "Project Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "funding_agency_id",
+          "alias": "Funding Agency ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "funding_category_id",
+          "alias": "Funding Category ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_cycle_status_id",
+          "alias": "Project Cycle Status ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_implementation_status_id",
+          "alias": "Project Implementation Status ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_initiator_category_id",
+          "alias": "Project Initiator Category ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_type_id",
+          "alias": "Project Type ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "substation_id",
+          "alias": "Substation ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "vendor_id",
+          "alias": "Vendor ID"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "reference_number",
+          "length": 256,
+          "alias": "Reference Number",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "visible": true,
+          "nullable": false,
+          "quotesRequired": true,
+          "editable": false,
+          "defaultValue": "NEWID() WITH VALUES",
+          "length": 38,
+          "type": "esriFieldTypeGlobalID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "globalid_1784183039909",
+          "alias": "GlobalID"
+        },
+        {
+          "sqlType": "sqlTypeInteger",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "objectid",
+          "length": 4,
+          "alias": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        }
+      ],
+      "maxRecordCountFactor": 1,
+      "dateFieldsTimeReference": {
+        "timeZoneIANA": "Etc/UTC",
+        "respectsDaylightSaving": false,
+        "timeZone": "UTC"
+      },
+      "supportsFieldDescriptionProperty": true,
+      "hasM": false,
+      "allowGeometryUpdates": true,
+      "isView": true,
+      "useStandardizedQueries": true,
+      "globalIdField": "globalid",
+      "supportedFieldTypes": [],
+      "description": "",
+      "syncCanReturnChanges": true,
+      "supportsAsyncDelete": true,
+      "isUpdatableView": false,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin"
+      ],
+      "geometryProperties": {
+        "shapeLengthFieldName": "SHAPE__Length"
+      },
+      "supportsRollbackOnFailureParameter": true,
+      "isDataReplicaTracked": false,
+      "standardMaxRecordCountNoGeometry": 16000,
+      "supportsTruncate": false,
+      "indexes": [],
+      "supportedAppendSourceFilterFormats": "featureService",
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "GUIDFormat": "O",
+      "minScale": 0,
+      "hasAttachments": true,
+      "queryBinsCapabilities": {
+        "supportsFirstDayOfWeek": false,
+        "supportedNormalizationTypes": [
+          "boxCox",
+          "field",
+          "inverse",
+          "log",
+          "naturalLog",
+          "percentOfTotal",
+          "squareRoot"
+        ],
+        "supportedStatisticTypes": [
+          "count",
+          "sum",
+          "min",
+          "max",
+          "avg",
+          "stddev",
+          "var",
+          "percentile_cont",
+          "percentile_disc"
+        ],
+        "supportsNormalization": true,
+        "supportsSnapToData": true,
+        "supportsFixedIntervalBin": true,
+        "supportsStackBy": true,
+        "supportsAutoIntervalBin": true,
+        "supportsFixedBoundariesBin": true,
+        "supportsDateBin": true,
+        "supportsSplitBy": true,
+        "supportsReturnFullIntervalBin": true
+      },
+      "advancedQueryCapabilities": {
+        "supportsSqlExpression": true,
+        "supportsQueryWithResultType": true,
+        "supportsQueryRelatedPagination": true,
+        "supportsQueryWithCacheHint": false,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsCurrentUserQueries": true,
+        "supportsQueryAttachmentsWithReturnUrl": true,
+        "fullTextSearchCapabilities": {
+          "supportsOperator": true,
+          "supportsSearchOperator": true
+        },
+        "supportsDefaultSR": true,
+        "supportsQueryDateBins": false,
+        "supportsQueryWithLodSR": true,
+        "supportsPaginationOnAggregatedQueries": true,
+        "supportsPagination": true,
+        "supportsMaxRecordCountFactor": true,
+        "fullTextSearchableFields": [],
+        "supportsStatistics": true,
+        "supportsOrderBy": true,
+        "supportsReturningGeometryProperties": true,
+        "supportsFullTextSearch": true,
+        "supportsQueryWithDistance": true,
+        "supportsLod": true,
+        "supportsSpatialAggregationStatistics": false,
+        "supportsCountDistinct": true,
+        "supportsAdvancedQueryRelated": true,
+        "supportsQueryAttachments": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryAttachmentsCountOnly": true,
+        "supportsOrderByOnlyOnLayerFields": false,
+        "supportsOutFieldSqlExpression": true,
+        "supportsTopFeaturesQuery": true,
+        "supportsReturningGeometryEnvelope": true,
+        "supportsDistinct": true,
+        "supportsReturningGeometryCentroid": false,
+        "supportsQueryAnalytic": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true
+      },
+      "layerAdminOperationsOptions": {
+        "deleteFromDefinition": [
+          "viewDefinitionQuery",
+          "xssTrustedFields",
+          "relationships"
+        ],
+        "addToDefiniton": [
+          "relationships"
+        ],
+        "updateDefinition": [
+          "maxRecordCount",
+          "propagateVisibleFields",
+          "editFieldsInfo",
+          "allowGeometryUpdates",
+          "typeIdField",
+          "viewDefinitionQuery",
+          "layerCache",
+          "allowUpdateWithoutMValues",
+          "minScale",
+          "viewLayerDefinition",
+          "lastEditDate",
+          "drawingInfo",
+          "templates",
+          "fields",
+          "hasAttachments",
+          "timeInfo",
+          "description",
+          "name",
+          "maxRecordCountFactor",
+          "maxQueryFieldCount",
+          "xssTrustedFields",
+          "copyrightText",
+          "defaultVisibility",
+          "ownershipBasedAccessControlForFeatures",
+          "types",
+          "displayField",
+          "capabilities",
+          "maxScale"
+        ]
+      },
+      "supportsValidateSql": true,
+      "serviceItemId": "0e5ede1fb5594aa09ddab293272b8ecc",
+      "supportsValidateSQL": true,
+      "allowUpdateWithoutMValues": true,
+      "supportsCoordinatesQuantization": true,
+      "types": [],
+      "capabilities": "Query",
+      "maxScale": 0,
+      "supportsAppend": true,
+      "supportsExceedsLimitStatistics": true,
+      "sourceSchemaChangesAllowed": false,
+      "defaultVisibility": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsAsync": true,
+        "supportsLinearRegression": true,
+        "supportsPercentileAnalytic": false
+      },
+      "hasMetadata": true,
+      "supportedAppendFormats": "csv,excel,featureCollection,featureService,geojson,imageCollection,jsonl,pbf,shapefile",
+      "uniqueIdField": {
+        "isSystemMaintained": true,
+        "name": "OBJECTID"
+      },
+      "tileMaxRecordCount": 2000,
+      "typeIdField": "",
+      "supportsASyncCalculate": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "supportsMultiScaleGeometry": false,
+      "sqlParserVersion": "PG_11.4.0",
+      "drawingInfo": {
+        "renderer": {
+          "symbol": {
+            "color": [
+              165,
+              83,
+              183,
+              255
+            ],
+            "width": 1,
+            "style": "esriSLSSolid",
+            "type": "esriSLS"
+          },
+          "type": "simple"
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "copyrightText": "",
+      "geometryType": "esriGeometryPolyline",
+      "supportsLayerOverrides": true,
+      "adminLayerInfo": {
+        "tableExtent": {
+          "spatialReference": {
+            "wkt": "PROJCS[\"WGS_1984_Web_Mercator_Auxiliary_Sphere\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Mercator_Auxiliary_Sphere\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",0.0],PARAMETER[\"Auxiliary_Sphere_Type\",0.0],UNIT[\"Meter\",1.0]]",
+            "wkid": 3857,
+            "sdesrid": 3857
+          }
+        },
+        "hasContingentValuesDefinition": false,
+        "geometryField": {
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true,
+          "name": "shape",
+          "typeName": "st_geometry",
+          "length": 2147483647,
+          "type": "esriFieldTypeGeometry",
+          "sqlTypeCode": 1111
+        },
+        "xssTrustedFields": "",
+        "viewLayerDefinition": {
+          "table": {
+            "relatedTables": [
+              {
+                "sourceLayerId": 0,
+                "sourceServiceName": "Projects",
+                "keyFields": [
+                  "globalid"
+                ],
+                "name": "Projects_1784183039909_join",
+                "sourceLayerFields": [
+                  {
+                    "name": "funding_year",
+                    "alias": "Funding Year",
+                    "source": "funding_year"
+                  },
+                  {
+                    "name": "project_name",
+                    "alias": "Project Name",
+                    "source": "project_name"
+                  },
+                  {
+                    "name": "funding_agency_id",
+                    "alias": "Funding Agency ID",
+                    "source": "funding_agency_id"
+                  },
+                  {
+                    "name": "funding_category_id",
+                    "alias": "Funding Category ID",
+                    "source": "funding_category_id"
+                  },
+                  {
+                    "name": "project_cycle_status_id",
+                    "alias": "Project Cycle Status ID",
+                    "source": "project_cycle_status_id"
+                  },
+                  {
+                    "name": "project_implementation_status_id",
+                    "alias": "Project Implementation Status ID",
+                    "source": "project_implementation_status_id"
+                  },
+                  {
+                    "name": "project_initiator_category_id",
+                    "alias": "Project Initiator Category ID",
+                    "source": "project_initiator_category_id"
+                  },
+                  {
+                    "name": "project_type_id",
+                    "alias": "Project Type ID",
+                    "source": "project_type_id"
+                  },
+                  {
+                    "name": "substation_id",
+                    "alias": "Substation ID",
+                    "source": "substation_id"
+                  },
+                  {
+                    "name": "vendor_id",
+                    "alias": "Vendor ID",
+                    "source": "vendor_id"
+                  },
+                  {
+                    "name": "reference_number",
+                    "alias": "Reference Number",
+                    "source": "reference_number"
+                  },
+                  {
+                    "name": "globalid_1784183039909",
+                    "alias": "GlobalID",
+                    "source": "globalid"
+                  }
+                ],
+                "type": "INNER",
+                "parentKeyFields": [
+                  "project"
+                ]
+              }
+            ],
+            "sourceLayerId": 0,
+            "sourceServiceName": "Proposed_Transmission_11KV",
+            "materialized": false,
+            "name": "Proposed_Transmission_11KV_1784183039909_target",
+            "sourceLayerFields": [
+              {
+                "name": "globalid",
+                "alias": "globalid",
+                "source": "globalid"
+              },
+              {
+                "name": "SHAPE__Length",
+                "alias": "SHAPE__Length",
+                "source": "SHAPE__Length"
+              },
+              {
+                "name": "project",
+                "alias": "project",
+                "source": "project"
+              }
+            ]
+          }
+        },
+        "syncEnabledOnSource": false,
+        "tableName": "db_p47sw.hsu_nhph9.proposed_11kv_wi_0_f74b8fd10fa94158b99041dd85e2484f"
+      },
+      "ogcGeometryType": [
+        "LINESTRING",
+        "MULTILINESTRING"
+      ]
+    }
+  },
+  "Hosted/Land_Parcels_With_Project_Details": {
+    "itemIds": [
+      {
+        "id": "26f0215334b44d7cb45ce33740dd505e",
+        "title": "Land Parcels With Project Details",
+        "type": "Feature Service",
+        "owner": "esriea_development"
+      }
+    ],
+    "service": {
+      "allowGeometryUpdates": false,
+      "supportsApplyEditsWithGlobalIds": false,
+      "isView": true,
+      "maxRecordCount": 2000,
+      "description": "",
+      "units": "esriMeters",
+      "isUpdatableView": false,
+      "maxViewsCount": 0,
+      "isDatabaseView": true,
+      "syncEnabled": false,
+      "tables": [],
+      "hasVersionedData": false,
+      "supportedAppendSourceFilterFormats": "featureService",
+      "layerOverridesEnabled": true,
+      "supportsRelationshipsResource": true,
+      "layers": [
+        {
+          "name": "Land_Parcels_With_Project_Details",
+          "id": 0,
+          "type": "Feature Layer",
+          "geometryType": "esriGeometryPolygon",
+          "serviceItemId": "26f0215334b44d7cb45ce33740dd505e"
+        }
+      ],
+      "GUIDFormat": "O",
+      "spatialReference": {
+        "latestWkid": 3857,
+        "wkid": 102100
+      },
+      "fullExtent": {
+        "ymin": -15538711.096309224,
+        "xmin": -17811118.526923772,
+        "ymax": 15538711.096309224,
+        "xmax": 17811118.526923772,
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        }
+      },
+      "enableZDefaults": false,
+      "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+      "capabilities": "Query",
+      "supportsAppend": true,
+      "supportsDisconnectedEditing": false,
+      "sourceSchemaChangesAllowed": false,
+      "supportsSyncModelNone": true,
+      "supportedAppendFormats": "featureCollection,featureService,shapefile",
+      "supportsReturnDeleteResults": true,
+      "currentVersion": 11.5,
+      "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": true,
+        "supportsApplyEditsbyUploadID": true,
+        "supportsReturnEditResults": true,
+        "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+      },
+      "supportedQueryFormats": "JSON",
+      "initialExtent": {
+        "ymin": -15538711.096309224,
+        "xmin": -17811118.526923772,
+        "ymax": 15538711.096309224,
+        "xmax": 17811118.526923772,
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        }
+      },
+      "serviceDescription": "",
+      "editorTrackingInfo": {
+        "allowAnonymousToQuery": true,
+        "allowOthersToUpdate": true,
+        "allowAnonymousToUpdate": true,
+        "enableEditorTracking": true,
+        "allowOthersToDelete": true,
+        "allowOthersToQuery": true,
+        "enableOwnershipAccessControl": false,
+        "allowAnonymousToDelete": true
+      },
+      "isMultiServicesView": true,
+      "copyrightText": "",
+      "supportsLayerOverrides": true,
+      "serviceItemId": "26f0215334b44d7cb45ce33740dd505e"
+    },
+    "adminLayer": {
+      "extent": {
+        "ymin": -15538711.096309224,
+        "xmin": -17811118.526923772,
+        "ymax": 15538711.096309224,
+        "xmax": 17811118.526923772,
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        }
+      },
+      "supportsApplyEditsWithGlobalIds": false,
+      "maxRecordCount": 2000,
+      "attachmentProperties": [
+        {
+          "fieldName": "attachmentid",
+          "isEnabled": true,
+          "name": "id"
+        },
+        {
+          "fieldName": "globalid",
+          "isEnabled": true,
+          "name": "globalId"
+        },
+        {
+          "fieldName": "att_name",
+          "isEnabled": true,
+          "name": "name"
+        },
+        {
+          "fieldName": "data_size",
+          "isEnabled": true,
+          "name": "size"
+        },
+        {
+          "fieldName": "content_type",
+          "isEnabled": true,
+          "name": "contentType"
+        },
+        {
+          "fieldName": "keywords",
+          "isEnabled": true,
+          "name": "keywords"
+        },
+        {
+          "fieldName": "exifinfo",
+          "isEnabled": true,
+          "name": "exifInfo"
+        }
+      ],
+      "attachmentFields": [
+        {
+          "sqlType": "sqlTypeInteger",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "attachmentid",
+          "alias": "attachmentid",
+          "type": "esriFieldTypeOID"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 38,
+          "name": "globalid",
+          "alias": "globalid",
+          "type": "esriFieldTypeGlobalID"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 250,
+          "name": "att_name",
+          "alias": "att_name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeInteger",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "data_size",
+          "alias": "data_size",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 150,
+          "name": "content_type",
+          "alias": "content_type",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 2048,
+          "name": "keywords",
+          "alias": "keywords",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "length": 1073741822,
+          "name": "exifinfo",
+          "alias": "exifinfo",
+          "type": "esriFieldTypeString"
+        }
+      ],
+      "type": "Feature Layer",
+      "hasStaticData": false,
+      "supportsAttachmentsByUploadId": true,
+      "syncEnabled": false,
+      "editingInfo": {},
+      "supportsAttachmentsResizing": true,
+      "id": 0,
+      "spatialReference": {
+        "latestWkid": 3857,
+        "wkid": 102100
+      },
+      "supportsSubtypeEditing": true,
+      "supportsStatistics": true,
+      "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+      "standardMaxRecordCount": 2000,
+      "isDataVersioned": false,
+      "maxFieldNameLength": 63,
+      "hasGeometryProperties": true,
+      "templates": [],
+      "supportsAdvancedQueries": true,
+      "currentVersion": 11.5,
+      "hasZ": false,
+      "advancedEditingCapabilities": {
+        "supportsAsyncApplyEdits": true,
+        "supportsApplyEditsbyUploadID": true,
+        "supportsReturnEditResults": true,
+        "supportedSqlFormatsInCalculate": [
+          "standard"
+        ],
+        "supportedApplyEditsUploadIDFormats": "JSON,PBF"
+      },
+      "objectIdField": "objectid",
+      "supportsQuantizationEditMode": true,
+      "hasContingentValuesDefinition": false,
+      "viewSourceHasAttachments": true,
+      "name": "Land_Parcels_With_Project_Details",
+      "displayField": null,
+      "isMultiServicesView": true,
+      "supportsCalculate": true,
+      "fields": [
+        {
+          "visible": true,
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "length": 38,
+          "type": "esriFieldTypeGlobalID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "globalid",
+          "alias": "globalid"
+        },
+        {
+          "sqlType": "sqlTypeDouble",
+          "virtual": true,
+          "visible": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "SHAPE__Length",
+          "alias": "SHAPE__Length",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "sqlType": "sqlTypeDouble",
+          "virtual": true,
+          "visible": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "SHAPE__Area",
+          "alias": "SHAPE__Area",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_id",
+          "alias": "Project"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "corridor_id",
+          "alias": "Corridor"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "lr_number",
+          "length": 256,
+          "alias": "LR Number",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeNumeric",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "area_sqm",
+          "length": 38,
+          "alias": "Area SqM",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "sqlType": "sqlTypeNumeric",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "intersected_area_sqm",
+          "length": 38,
+          "alias": "Intersected Area SqM",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "sqlType": "sqlTypeNumeric",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "pct_parcel_affected",
+          "length": 38,
+          "alias": "Corridor Percentage",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "tenure_type",
+          "length": 256,
+          "alias": "Tenure Type",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "digitization_status",
+          "length": 256,
+          "alias": "Digitization Status",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "acquisition_status",
+          "length": 256,
+          "alias": "Acquisition Status",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "notes",
+          "length": 1000,
+          "alias": "Notes",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "created_user",
+          "length": 255,
+          "alias": "created_user",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeTimestamp",
+          "visible": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "created_date",
+          "length": 29,
+          "alias": "created_date",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "last_edited_user",
+          "length": 255,
+          "alias": "last_edited_user",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeTimestamp",
+          "visible": true,
+          "nullable": true,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "last_edited_date",
+          "length": 29,
+          "alias": "last_edited_date",
+          "type": "esriFieldTypeDate"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "funding_year",
+          "length": 256,
+          "alias": "Funding Year",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "project_name",
+          "length": 256,
+          "alias": "Project Name",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "funding_agency_id",
+          "alias": "Funding Agency ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "funding_category_id",
+          "alias": "Funding Category ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_cycle_status_id",
+          "alias": "Project Cycle Status ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_implementation_status_id",
+          "alias": "Project Implementation Status ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_initiator_category_id",
+          "alias": "Project Initiator Category ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "project_type_id",
+          "alias": "Project Type ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "substation_id",
+          "alias": "Substation ID"
+        },
+        {
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "length": 38,
+          "description": "{\"fieldValueType\":\"uniqueIdentifier\",\"value\":\"\"}",
+          "type": "esriFieldTypeGUID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "vendor_id",
+          "alias": "Vendor ID"
+        },
+        {
+          "sqlType": "sqlTypeVarchar",
+          "visible": true,
+          "nullable": true,
+          "editable": true,
+          "defaultValue": null,
+          "name": "reference_number",
+          "length": 256,
+          "alias": "Reference Number",
+          "type": "esriFieldTypeString"
+        },
+        {
+          "visible": true,
+          "nullable": false,
+          "quotesRequired": true,
+          "editable": false,
+          "defaultValue": "NEWID() WITH VALUES",
+          "length": 38,
+          "type": "esriFieldTypeGlobalID",
+          "sqlType": "sqlTypeVarchar",
+          "domain": null,
+          "name": "globalid_1784183232607",
+          "alias": "GlobalID"
+        },
+        {
+          "sqlType": "sqlTypeInteger",
+          "nullable": false,
+          "editable": false,
+          "defaultValue": null,
+          "domain": null,
+          "name": "objectid",
+          "length": 4,
+          "alias": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        }
+      ],
+      "maxRecordCountFactor": 1,
+      "dateFieldsTimeReference": {
+        "timeZoneIANA": "Etc/UTC",
+        "respectsDaylightSaving": false,
+        "timeZone": "UTC"
+      },
+      "supportsFieldDescriptionProperty": true,
+      "hasM": false,
+      "allowGeometryUpdates": true,
+      "isView": true,
+      "useStandardizedQueries": true,
+      "globalIdField": "globalid",
+      "supportedFieldTypes": [],
+      "description": "",
+      "syncCanReturnChanges": true,
+      "supportsAsyncDelete": true,
+      "isUpdatableView": false,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin"
+      ],
+      "geometryProperties": {
+        "shapeAreaFieldName": "SHAPE__Area",
+        "shapeLengthFieldName": "SHAPE__Length"
+      },
+      "supportsRollbackOnFailureParameter": true,
+      "isDataReplicaTracked": false,
+      "standardMaxRecordCountNoGeometry": 16000,
+      "supportsTruncate": false,
+      "indexes": [],
+      "supportedAppendSourceFilterFormats": "featureService",
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "editFieldsInfo": {
+        "editDateField": "last_edited_date",
+        "editorField": "last_edited_user",
+        "creationDateField": "created_date",
+        "creatorField": "created_user"
+      },
+      "GUIDFormat": "O",
+      "minScale": 0,
+      "hasAttachments": true,
+      "queryBinsCapabilities": {
+        "supportsFirstDayOfWeek": false,
+        "supportedNormalizationTypes": [
+          "boxCox",
+          "field",
+          "inverse",
+          "log",
+          "naturalLog",
+          "percentOfTotal",
+          "squareRoot"
+        ],
+        "supportedStatisticTypes": [
+          "count",
+          "sum",
+          "min",
+          "max",
+          "avg",
+          "stddev",
+          "var",
+          "percentile_cont",
+          "percentile_disc"
+        ],
+        "supportsNormalization": true,
+        "supportsSnapToData": true,
+        "supportsFixedIntervalBin": true,
+        "supportsStackBy": true,
+        "supportsAutoIntervalBin": true,
+        "supportsFixedBoundariesBin": true,
+        "supportsDateBin": true,
+        "supportsSplitBy": true,
+        "supportsReturnFullIntervalBin": true
+      },
+      "advancedQueryCapabilities": {
+        "supportsSqlExpression": true,
+        "supportsQueryWithResultType": true,
+        "supportsQueryRelatedPagination": true,
+        "supportsQueryWithCacheHint": false,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsCurrentUserQueries": true,
+        "supportsQueryAttachmentsWithReturnUrl": true,
+        "fullTextSearchCapabilities": {
+          "supportsOperator": true,
+          "supportsSearchOperator": true
+        },
+        "supportsDefaultSR": true,
+        "supportsQueryDateBins": false,
+        "supportsQueryWithLodSR": true,
+        "supportsPaginationOnAggregatedQueries": true,
+        "supportsPagination": true,
+        "supportsMaxRecordCountFactor": true,
+        "fullTextSearchableFields": [],
+        "supportsStatistics": true,
+        "supportsOrderBy": true,
+        "supportsReturningGeometryProperties": true,
+        "supportsFullTextSearch": true,
+        "supportsQueryWithDistance": true,
+        "supportsLod": true,
+        "supportsSpatialAggregationStatistics": false,
+        "supportsCountDistinct": true,
+        "supportsAdvancedQueryRelated": true,
+        "supportsQueryAttachments": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryAttachmentsCountOnly": true,
+        "supportsOrderByOnlyOnLayerFields": false,
+        "supportsOutFieldSqlExpression": true,
+        "supportsTopFeaturesQuery": true,
+        "supportsReturningGeometryEnvelope": true,
+        "supportsDistinct": true,
+        "supportsReturningGeometryCentroid": true,
+        "supportsQueryAnalytic": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true
+      },
+      "layerAdminOperationsOptions": {
+        "deleteFromDefinition": [
+          "viewDefinitionQuery",
+          "xssTrustedFields",
+          "relationships"
+        ],
+        "addToDefiniton": [
+          "relationships"
+        ],
+        "updateDefinition": [
+          "maxRecordCount",
+          "propagateVisibleFields",
+          "editFieldsInfo",
+          "allowGeometryUpdates",
+          "typeIdField",
+          "viewDefinitionQuery",
+          "layerCache",
+          "allowUpdateWithoutMValues",
+          "minScale",
+          "viewLayerDefinition",
+          "lastEditDate",
+          "drawingInfo",
+          "templates",
+          "fields",
+          "hasAttachments",
+          "timeInfo",
+          "description",
+          "name",
+          "maxRecordCountFactor",
+          "maxQueryFieldCount",
+          "xssTrustedFields",
+          "copyrightText",
+          "defaultVisibility",
+          "ownershipBasedAccessControlForFeatures",
+          "types",
+          "displayField",
+          "capabilities",
+          "maxScale"
+        ]
+      },
+      "supportsValidateSql": true,
+      "serviceItemId": "26f0215334b44d7cb45ce33740dd505e",
+      "supportsValidateSQL": true,
+      "allowUpdateWithoutMValues": true,
+      "supportsCoordinatesQuantization": true,
+      "types": [],
+      "capabilities": "Query",
+      "maxScale": 0,
+      "supportsAppend": true,
+      "supportsExceedsLimitStatistics": true,
+      "sourceSchemaChangesAllowed": false,
+      "defaultVisibility": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsAsync": true,
+        "supportsLinearRegression": true,
+        "supportsPercentileAnalytic": false
+      },
+      "hasMetadata": true,
+      "supportedAppendFormats": "csv,excel,featureCollection,featureService,geojson,imageCollection,jsonl,pbf,shapefile",
+      "uniqueIdField": {
+        "isSystemMaintained": true,
+        "name": "OBJECTID"
+      },
+      "tileMaxRecordCount": 2000,
+      "typeIdField": "",
+      "supportsASyncCalculate": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "supportsMultiScaleGeometry": false,
+      "sqlParserVersion": "PG_11.4.0",
+      "drawingInfo": {
+        "renderer": {
+          "symbol": {
+            "outline": {
+              "color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "width": 0.75,
+              "style": "esriSLSSolid",
+              "type": "esriSLS"
+            },
+            "color": [
+              76,
+              129,
+              205,
+              191
+            ],
+            "style": "esriSFSSolid",
+            "type": "esriSFS"
+          },
+          "type": "simple"
+        },
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "copyrightText": "",
+      "geometryType": "esriGeometryPolygon",
+      "supportsLayerOverrides": true,
+      "adminLayerInfo": {
+        "tableExtent": {
+          "spatialReference": {
+            "wkt": "PROJCS[\"WGS_1984_Web_Mercator_Auxiliary_Sphere\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Mercator_Auxiliary_Sphere\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",0.0],PARAMETER[\"Auxiliary_Sphere_Type\",0.0],UNIT[\"Meter\",1.0]]",
+            "wkid": 3857,
+            "sdesrid": 3857
+          }
+        },
+        "hasContingentValuesDefinition": false,
+        "geometryField": {
+          "sqlType": "sqlTypeOther",
+          "nullable": true,
+          "editable": true,
+          "name": "shape",
+          "typeName": "st_geometry",
+          "length": 2147483647,
+          "type": "esriFieldTypeGeometry",
+          "sqlTypeCode": 1111
+        },
+        "xssTrustedFields": "",
+        "viewLayerDefinition": {
+          "table": {
+            "relatedTables": [
+              {
+                "topFilter": {
+                  "orderByFields": [
+                    {
+                      "objectid": "ASC"
+                    }
+                  ],
+                  "topCount": 1,
+                  "groupByFields": [
+                    "globalid"
+                  ]
+                },
+                "sourceLayerId": 0,
+                "sourceServiceName": "Projects",
+                "keyFields": [
+                  "globalid"
+                ],
+                "name": "Projects_1784183232607_join",
+                "sourceLayerFields": [
+                  {
+                    "name": "funding_year",
+                    "alias": "Funding Year",
+                    "source": "funding_year"
+                  },
+                  {
+                    "name": "project_name",
+                    "alias": "Project Name",
+                    "source": "project_name"
+                  },
+                  {
+                    "name": "funding_agency_id",
+                    "alias": "Funding Agency ID",
+                    "source": "funding_agency_id"
+                  },
+                  {
+                    "name": "funding_category_id",
+                    "alias": "Funding Category ID",
+                    "source": "funding_category_id"
+                  },
+                  {
+                    "name": "project_cycle_status_id",
+                    "alias": "Project Cycle Status ID",
+                    "source": "project_cycle_status_id"
+                  },
+                  {
+                    "name": "project_implementation_status_id",
+                    "alias": "Project Implementation Status ID",
+                    "source": "project_implementation_status_id"
+                  },
+                  {
+                    "name": "project_initiator_category_id",
+                    "alias": "Project Initiator Category ID",
+                    "source": "project_initiator_category_id"
+                  },
+                  {
+                    "name": "project_type_id",
+                    "alias": "Project Type ID",
+                    "source": "project_type_id"
+                  },
+                  {
+                    "name": "substation_id",
+                    "alias": "Substation ID",
+                    "source": "substation_id"
+                  },
+                  {
+                    "name": "vendor_id",
+                    "alias": "Vendor ID",
+                    "source": "vendor_id"
+                  },
+                  {
+                    "name": "reference_number",
+                    "alias": "Reference Number",
+                    "source": "reference_number"
+                  },
+                  {
+                    "name": "globalid_1784183232607",
+                    "alias": "GlobalID",
+                    "source": "globalid"
+                  }
+                ],
+                "type": "INNER",
+                "parentKeyFields": [
+                  "project_id"
+                ]
+              }
+            ],
+            "sourceLayerId": 0,
+            "sourceServiceName": "Land_Parcels",
+            "materialized": false,
+            "name": "Land_Parcels_1784183232607_target",
+            "sourceLayerFields": [
+              {
+                "name": "globalid",
+                "alias": "globalid",
+                "source": "globalid"
+              },
+              {
+                "name": "SHAPE__Length",
+                "alias": "SHAPE__Length",
+                "source": "SHAPE__Length"
+              },
+              {
+                "name": "SHAPE__Area",
+                "alias": "SHAPE__Area",
+                "source": "SHAPE__Area"
+              },
+              {
+                "name": "project_id",
+                "alias": "Project",
+                "source": "project_id"
+              },
+              {
+                "name": "corridor_id",
+                "alias": "Corridor",
+                "source": "corridor_id"
+              },
+              {
+                "name": "lr_number",
+                "alias": "LR Number",
+                "source": "lr_number"
+              },
+              {
+                "name": "area_sqm",
+                "alias": "Area SqM",
+                "source": "area_sqm"
+              },
+              {
+                "name": "intersected_area_sqm",
+                "alias": "Intersected Area SqM",
+                "source": "intersected_area_sqm"
+              },
+              {
+                "name": "pct_parcel_affected",
+                "alias": "Corridor Percentage",
+                "source": "pct_parcel_affected"
+              },
+              {
+                "name": "tenure_type",
+                "alias": "Tenure Type",
+                "source": "tenure_type"
+              },
+              {
+                "name": "digitization_status",
+                "alias": "Digitization Status",
+                "source": "digitization_status"
+              },
+              {
+                "name": "acquisition_status",
+                "alias": "Acquisition Status",
+                "source": "acquisition_status"
+              },
+              {
+                "name": "notes",
+                "alias": "Notes",
+                "source": "notes"
+              },
+              {
+                "name": "created_user",
+                "alias": "created_user",
+                "source": "created_user"
+              },
+              {
+                "name": "created_date",
+                "alias": "created_date",
+                "source": "created_date"
+              },
+              {
+                "name": "last_edited_user",
+                "alias": "last_edited_user",
+                "source": "last_edited_user"
+              },
+              {
+                "name": "last_edited_date",
+                "alias": "last_edited_date",
+                "source": "last_edited_date"
+              }
+            ]
+          }
+        },
+        "syncEnabledOnSource": false,
+        "tableName": "db_p47sw.hsu_nhph9.land_parcels_wit_0_4613d813173b42bda9926259f611b9c9"
+      },
+      "ogcGeometryType": [
+        "POLYGON",
+        "MULTIPOLYGON"
+      ]
+    }
+  }
+}

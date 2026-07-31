@@ -15,7 +15,6 @@ export default function FacilitiesPage() {
   const [search, setSearch] = useState('');
   const [filterFacilityType, setFilterFacilityType] = useState('');
   const [filterProgramType, setFilterProgramType] = useState('');
-  const [filterConstituency, setFilterConstituency] = useState('');
 
   useEffect(() => {
     if (!token) return;
@@ -35,21 +34,15 @@ export default function FacilitiesPage() {
     return vals.map((v) => ({ value: v, label: v }));
   }, [facilities]);
 
-  const constituencies = useMemo(() => {
-    const vals = [...new Set(facilities.map((f) => f.constituency_code?.toString()).filter(Boolean))].sort() as string[];
-    return vals.map((v) => ({ value: v, label: `Constituency ${v}` }));
-  }, [facilities]);
-
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
     return facilities.filter((f) => {
       if (q && !f.facility_name?.toLowerCase().includes(q) && !f.reference_number?.toLowerCase().includes(q)) return false;
       if (filterFacilityType && f.facility_type_name !== filterFacilityType) return false;
       if (filterProgramType && f.program_type_name !== filterProgramType) return false;
-      if (filterConstituency && f.constituency_code?.toString() !== filterConstituency) return false;
       return true;
     });
-  }, [facilities, search, filterFacilityType, filterProgramType, filterConstituency]);
+  }, [facilities, search, filterFacilityType, filterProgramType]);
 
   const columns: ColumnDef<Facility>[] = [
     {
@@ -76,19 +69,9 @@ export default function FacilitiesPage() {
         <Badge variant="light" color="violet" size="sm">{getValue() as string}</Badge>
       ) : <span>—</span>,
     },
-    {
-      accessorKey: 'constituency_code',
-      header: 'Constituency Code',
-      cell: ({ getValue }) => <span>{getValue() != null ? String(getValue()) : '—'}</span>,
-    },
-    {
-      accessorKey: 'ward_code',
-      header: 'Ward Code',
-      cell: ({ getValue }) => <span>{getValue() != null ? String(getValue()) : '—'}</span>,
-    },
   ];
 
-  const activeFilters = [filterFacilityType, filterProgramType, filterConstituency].filter(Boolean).length;
+  const activeFilters = [filterFacilityType, filterProgramType].filter(Boolean).length;
 
   return (
     <Layout>
@@ -109,7 +92,7 @@ export default function FacilitiesPage() {
             </Text>
           </div>
 
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             <TextInput
               placeholder="Search by name or ref no."
               leftSection={<IconSearch size={15} />}
@@ -134,16 +117,6 @@ export default function FacilitiesPage() {
               clearable
               searchable
               size="sm"
-            />
-            <Select
-              placeholder="Constituency Code"
-              data={constituencies}
-              value={filterConstituency}
-              onChange={(v) => setFilterConstituency(v || '')}
-              clearable
-              searchable
-              size="sm"
-              disabled={constituencies.length === 0}
             />
           </div>
         </div>

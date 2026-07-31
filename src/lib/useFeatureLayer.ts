@@ -48,6 +48,22 @@ export function useFeatureLayer<T>(apiPath: string) {
     await fetchRecords();
   };
 
+  // Update several records, then refetch once (used for drag-to-reorder).
+  const updateRecords = async (updates: { objectid: number; body: Record<string, unknown> }[]) => {
+    await Promise.all(
+      updates.map(async (u) => {
+        const res = await fetch(`${apiPath}/${u.objectid}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+          body: JSON.stringify(u.body),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Failed to update record');
+      }),
+    );
+    await fetchRecords();
+  };
+
   const deleteRecord = async (objectid: number) => {
     const res = await fetch(`${apiPath}/${objectid}`, {
       method: 'DELETE',
@@ -58,5 +74,5 @@ export function useFeatureLayer<T>(apiPath: string) {
     await fetchRecords();
   };
 
-  return { records, loading, fetchRecords, addRecord, updateRecord, deleteRecord };
+  return { records, loading, fetchRecords, addRecord, updateRecord, updateRecords, deleteRecord };
 }
